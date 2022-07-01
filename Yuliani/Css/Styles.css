@@ -1,0 +1,220 @@
+/* Aquí comienza el HEADER */
+header {
+    background-color: #24303c;
+    height: 9vh;
+    width: 100%;
+    display: flex;
+    float: left;
+}
+
+.titulo {
+    display: flex;
+    width: 20%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+
+.logo {
+    width: 50%;
+    height: 100%;
+}
+
+
+/* Aqui finaliza el HEADER */
+
+
+/* Aqui comienza el CONTENEDOR */
+h1{
+    font-family: "Playfair Display";
+    color:rgb(250, 245, 245);
+   
+  }
+  h2{
+    font-family: "Playfair Display";
+    color:rgb(17, 17, 17);
+  }
+  nav{
+    font-family: "Playfair Display";
+    color:rgb(250, 245, 245);
+  }
+.navegador {
+    display: flex;
+    height: 100%;
+    width: 12%;
+    flex-direction: column;
+    /* row-gap: 10%; */
+    justify-content: center;
+    align-items: center;
+    row-gap: 5%;
+    background-color: #24303c;
+}
+
+.med_b {
+    width: 70%;
+    height: 9vh;
+}
+
+
+.letra_nav {
+    color: rgb(0, 0, 0);
+    
+    text-align: center;
+    
+}
+
+.b_nav {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: inset;
+    text-decoration: none;
+    text-transform: capitalize;
+    border-width: 2%;
+    border-color: transparent;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 0% 30%;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.b_nav:hover {
+    background-color: white;
+    border-width: 3%;
+    border-color: #72cb10;
+}
+
+.contenedor {
+    display: flex;
+    width: 100%;
+    height: 80vh;
+    float: left;
+    background-color: #f1f9e1;
+    justify-content: space-around;
+}
+
+.c_datos {
+    background-color: aqua;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Aqui finaliza el CONTENEDOR */
+
+
+.hola{background-color: rgb(223, 222, 222);
+height: 90vh;
+width: 100%;}
+
+/* Aquí comienza el FOOTER */
+
+.footer {
+    width: 100%;
+    height: 11vh;
+    color: white;
+    background-color: grey;
+    display: flex;
+    float: left;
+    flex-direction: column;
+}
+
+.t_icono{
+    width: 100%;
+    height: 80%;
+
+}
+
+.c_icono{
+    width: 3%;
+    height: 90%;
+    background-size: cover;
+}
+
+.c_iconos{
+    width: 100%;
+    height: 50%;
+    gap: 3%; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.c_contacto {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.letratexf {
+    color: white;
+    font-size: calc(1.5vh + 1.5vw);
+}
+
+/* Aquí finaliza el FOOTER */
+
+.c_navegador{
+    height: 100%;
+    width: 9%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+
+.navegador {
+    background-color: #24303c;
+    display: flex;
+    height: 80%;
+    width: 100%;
+    flex-direction: column;
+    row-gap: 2%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1%;
+    box-shadow: 1rem 1rem 1rem 1rem rgba(0, 0, 0, .5);
+}
+
+.med_b {
+    width: 70%;
+    height: 9%;
+}
+
+.letra_nav {
+    font-size: calc(0.8em + 0.8vh);
+    text-align: center;
+    width: 100%;
+}
+
+.b_nav {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: inset;
+    text-decoration: none;
+    text-transform: capitalize;
+    border-width: 2%;
+    border-color: transparent;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 0% 30%;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    color: white;
+}
+
+.b_nav:hover {
+    background-color: black;
+    border-width: 3%;
+    color: #72cb10;
+}

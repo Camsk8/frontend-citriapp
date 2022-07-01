@@ -1,0 +1,308 @@
+/* Aquí comienza el HEADER */
+
+.header {
+    background-color: #24303c;
+    height: 10vh;
+    width: 100%;
+}
+
+.titulo {
+    width: 20%;
+    height: 100%;
+    font-size: calc(2em + 2.3vw);
+    text-align: center;
+    bottom: 50%;
+}
+
+.letra {
+    color: black;
+    font-size: calc(0.6em + 0.6vw);
+}
+
+
+/* Aqui finaliza el HEADER */
+
+
+/* Aqui comienza el CONTENEDOR */
+
+.padrenav {
+    height: 100%;
+    width: 9%;
+}
+
+.c_navegador {
+    height: 100%;
+    width: 9%;
+    display: flex;
+    background-color: #F1F8E9;
+}
+
+.navegador {
+    background-color: #24303c;
+    display: flex;
+    height: 30vh;
+    width: 100%;
+    flex-direction: column;
+    /* row-gap: 10%; */
+    justify-content: center;
+    align-items: center;
+    row-gap: 5%;
+    box-shadow: 1em 1em 1em 1em rgba(0, 0, 0, 0.5);
+    position: relative;
+    top: 34%;
+}
+
+.med_b {
+    width: 70%;
+    height: 5vh;
+}
+
+.navegadorR {
+    display: flex;
+    justify-content: center;
+}
+
+.med_bR {
+    width: 70%;
+    height: 5vh;
+}
+
+.b_navR {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: inset;
+    text-decoration: none;
+    text-transform: capitalize;
+    border-width: 2%;
+    border-color: transparent;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 0% 30%;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    color: white;
+}
+
+.b_navR:hover {
+    border-width: 3%;
+    color: greenyellow;
+}
+
+.letra_nav {
+    text-align: center;
+}
+
+.b_nav {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: inset;
+    text-decoration: none;
+    text-transform: capitalize;
+    border-width: 2%;
+    border-color: transparent;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 0% 30%;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    color: white;
+}
+
+.b_nav:hover {
+    border-width: 3%;
+    color: greenyellow;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 120vh;
+    float: left;
+}
+
+.c_datos {
+    background-color: aqua;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Aqui finaliza el CONTENEDOR */
+
+
+/* Aquí comienza el FOOTER */
+
+.footer {
+    width: 100%;
+    height: 11vh;
+    color: white;
+    background-color: grey;
+    display: flex;
+    float: left;
+    flex-direction: column;
+}
+
+.t_icono{
+    width: 100%;
+    height: 80%;
+
+}
+
+.c_icono{
+    width: 3%;
+    height: 90%;
+    background-size: cover;
+}
+
+.c_iconos{
+    width: 100%;
+    height: 50%;
+    gap: 3%; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.c_contacto {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.letratexf {
+    color: white;
+    font-size: calc(1.5vh + 1.5vw);
+}
+
+/* Aquí finaliza el FOOTER */
+
+.hola {
+    background-color: #F1F8E9;
+    height: 120vh;
+    width: 100%;
+}
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    .navegador {
+        display: none;
+    }
+    .header {
+        background-color: #24303c;
+        height: 10vh;
+        width: 100%;
+    }
+    .md-1 {
+        width: 8, 33%;
+    }
+    .md-2 {
+        width: 16, 67%;
+    }
+    .md-3 {
+        width: 25%;
+    }
+    .md-4 {
+        width: 33, 33%;
+    }
+    .md-5 {
+        width: 41, 67%;
+    }
+    .md-6 {
+        width: 50%;
+    }
+    .md-7 {
+        width: 58, 33%;
+    }
+    .md-8 {
+        width: 66, 67%;
+    }
+    .md-9 {
+        width: 75%;
+    }
+    .md-10 {
+        width: 83, 33%;
+    }
+    .md-11 {
+        width: 91, 67%;
+    }
+    .md-12 {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .navegadorR {
+        display: none;
+    }
+    .med_bR {
+        width: 70%;
+        height: 5vh;
+    }
+    .b_navR {
+        width: 100%;
+        height: 100%;
+        background-color: transparent;
+        border: inset;
+        text-decoration: none;
+        text-transform: capitalize;
+        border-width: 2%;
+        border-color: transparent;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 0% 30%;
+        -webkit-transition-duration: 0.4s;
+        transition-duration: 0.4s;
+        color: white;
+    }
+    .b_navR:hover {
+        border-width: 3%;
+        color: greenyellow;
+    }
+    .md-1 {
+        width: 8, 33%;
+    }
+    .md-2 {
+        width: 16, 67%;
+    }
+    .md-3 {
+        width: 25%;
+    }
+    .md-4 {
+        width: 33, 33%;
+    }
+    .md-5 {
+        width: 41, 67%;
+    }
+    .md-6 {
+        width: 50%;
+    }
+    .md-7 {
+        width: 58, 33%;
+    }
+    .md-8 {
+        width: 66, 67%;
+    }
+    .md-9 {
+        width: 75%;
+    }
+    .md-10 {
+        width: 83, 33%;
+    }
+    .md-11 {
+        width: 91, 67%;
+    }
+    .md-12 {
+        width: 100%;
+    }
+}

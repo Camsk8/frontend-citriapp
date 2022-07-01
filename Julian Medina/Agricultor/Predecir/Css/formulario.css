@@ -1,0 +1,104 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.form-predict {
+    width: 25%;
+    background: #24303c;
+    height: 39vh;
+    padding: 4%;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 1em 1em 1em 1em rgba(0, 0, 0, 0.5);
+    position: relative;
+    left: 32%;
+    top: 12%;
+    border-radius: 2%;
+}
+
+.form-resultado {
+    width: 25%;
+    height: 20vh;
+    background: #24303c;
+    padding: 4%;
+    margin: auto;
+    border-radius: 2%;
+    font-family: 'calibri';
+    color: white;
+    position: relative;
+    top: 20%;
+    right: 1%;
+}
+
+.form-predict h4 {
+    font-size: 22px;
+    margin-bottom: 5%;
+    color: white;
+}
+
+.controls {
+    width: 76%;
+    height: 20%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 9px;
+    margin-bottom: 20px;
+    border: 1px solid #53E053;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+    position: relative;
+    left: 10%;
+}
+
+.form-predict .botons {
+    width: 35%;
+    height: 4vh;
+    background: #53E053;
+    border: none;
+    margin: 7% 0;
+    font-size: 90%;
+    margin-left: 33%;
+    display: block;
+}
+
+.form-resultado .botons {
+    width: 30%;
+    height: 4vh;
+    background: #53E053;
+    border: none;
+    margin: 7% 0;
+    font-size: 90%;
+    margin-left: 33%;
+    display: block;
+}
+
+.sub {
+    text-align: center;
+    border-radius: 9px;
+    margin-bottom: 13px;
+}
+
+.sub2 {
+    text-align: center;
+    border-radius: 9px;
+    margin-bottom: 13px;
+}
+
+.BotRes {
+    display: flex;
+}
+
+.tituloform {
+    text-align: center;
+    font-size: 90%;
+    position: relative;
+    bottom: 17%;
+}
+
+.botons:hover {
+    background-color: #000;
+    border-width: 3%;
+    color: greenyellow;
+}

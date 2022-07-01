@@ -1,0 +1,162 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: arial;
+}
+
+
+/* Aquí comienza el HEADER */
+
+header {
+    background-color: #24303c;
+    height: 9vh;
+    width: 100%;
+    display: flex;
+    float: left;
+}
+
+.titulo {
+    display: flex;
+    width: 20%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+
+.logo {
+    width: 50%;
+    height: 100%;
+}
+
+
+/* Aqui finaliza el HEADER */
+
+
+/* Aqui comienza el CONTENEDOR */
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 91vh;
+    float: left;
+    gap: 2%;
+}
+
+.c_navegador{
+    height: 100%;
+    width: 9%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+
+.navegador {
+    background-color: #24303c;
+    display: flex;
+    height: 80%;
+    width: 100%;
+    flex-direction: column;
+    row-gap: 2%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1%;
+    box-shadow: 1rem 1rem 1rem 1rem rgba(0, 0, 0, .5);
+}
+
+.med_b {
+    width: 70%;
+    height: 9%;
+}
+
+.letra_nav {
+    font-size: calc(0.8em + 0.8vh);
+    text-align: center;
+    width: 100%;
+}
+
+.b_nav {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: inset;
+    text-decoration: none;
+    text-transform: capitalize;
+    border-width: 2%;
+    border-color: transparent;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 0% 30%;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    color: white;
+}
+
+.b_nav:hover {
+    background-color: black;
+    border-width: 3%;
+    color: #72cb10;
+
+    }
+
+.c_datos {
+    background-color: #f1f9e1;
+    height: 100%;
+    width: 89%;
+    display: flex;
+    flex-direction: column;
+}
+
+.letraadjuntar {
+    font-size: calc(0.5em + 0.6vh);
+    text-align: center;
+}
+
+.d_datos {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    
+    align-items: center;
+    text-align: center;
+}
+
+.c_adjuntar {
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    height: 60%;
+}
+
+.boton {
+    width: 100%;
+    height: 100%;
+    background-color: #24303c;
+    color: white;
+    border: inset;
+    border-width: 2%;
+    border-color: transparent;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: calc(0.5em + 1vw);
+    border-radius: 1%;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+/* Al pasar el puntero cambia el color al indicado en el codigo */
+
+.boton:hover {
+    background-color: black;
+    -webkit-text-stroke: 0.5% #72cb10;
+    border-width: 3%;
+    border-color: #72cb10;
+}
+/* Aqui finaliza el CONTENEDOR */
+
+/* color#24303c */
+
+
+/* color#24303c */
